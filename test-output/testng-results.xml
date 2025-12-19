@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-18T23:31:28 IST" name="Default suite" finished-at="2025-12-18T23:31:30 IST" duration-ms="1434">
+    <groups>
+    </groups>
+    <test started-at="2025-12-18T23:31:28 IST" name="Default test" finished-at="2025-12-18T23:31:30 IST" duration-ms="1434">
+      <class name="Authorization.BasicAuth5000">
+        <test-method is-config="true" signature="BasicAuthorization()[pri:0, instance:Authorization.BasicAuth5000@2a3b5b47]" started-at="2025-12-18T23:31:28 IST" name="BasicAuthorization" finished-at="2025-12-18T23:31:29 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicAuthorization -->
+        <test-method signature="requestspec()[pri:0, instance:Authorization.BasicAuth5000@2a3b5b47]" started-at="2025-12-18T23:31:29 IST" name="requestspec" finished-at="2025-12-18T23:31:30 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestspec -->
+      </class> <!-- Authorization.BasicAuth5000 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

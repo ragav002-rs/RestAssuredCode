@@ -1,0 +1,79 @@
+{
+  "orders": [
+    {
+      "restaurant": "SS Hyderbad Biriyani",
+      "branchId": 123,
+      "items": [
+        {
+          "name": "Chicken Biriyani",
+          "quantity": 2
+        },
+        {
+          "name": "Chicken Grill",
+          "quantity": 1
+        },
+        {
+          "name": "Fish Fry",
+          "quantity": 2
+        }
+      ],
+      "ordertime": "12:45 PM"
+    },
+    {
+      "restaurant": "Cresent Hotel",
+      "branchId": 987,
+      "items": [
+        {
+          "name": "Mutton Biriyani",
+          "quantity": 1
+        },
+        {
+          "name": "Tandoori Chicken",
+          "quantity": 1
+        },
+        {
+          "name": "Prawn Fry",
+          "quantity": 3
+        }
+      ],
+      "ordertime1": "1:30 PM"
+    }
+  ],
+  "Branches": [
+    {
+      "restaurant": "SS Hyderbad Biriyani",
+      "branch": "Perambur",
+      "address": "12, Papermills Road",
+      "rating": 5
+    },
+    {
+      "restaurant": "Rameshwaram Cafe",
+      "branch": "Kolathur",
+      "address": "14A, Periyar Nagar",
+      "rating": 3
+    },
+    {
+      "restaurant": "VB World",
+      "branch": "Kolathur",
+      "address": "14A, Periyar Nagar",
+      "rating": 1
+    },
+    {
+      "restaurant": "Beach Terrace",
+      "branch": "Kolathur",
+      "address": "14A, Periyar Nagar",
+      "rating": 2
+    },
+    {
+      "restaurant": "Sea Tales",
+      "branch": "Kolathur",
+      "address": "14A, Periyar Nagar",
+      "rating": 4
+    }
+  ],
+  "useraddress": {
+    "line": "45, Lake View Road",
+    "city": "Bangalore",
+    "pincode": 560043
+  }
+}

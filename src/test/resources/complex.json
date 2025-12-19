@@ -1,0 +1,71 @@
+{
+  "garageId" : "GRG-01",
+  "location" : {
+    "city" : "Chennai",
+    "pincode" : 600023,
+    "coordinates" : {
+      "lat" : 13.0283,
+      "lng" : 77.5895
+    }
+  },
+  "vehicles" : [ {
+    "type" : "car",
+    "details" : {
+      "id" : "CAR-001",
+      "brand" : "Tesla",
+      "model" : "Model S",
+      "year" : 2024,
+      "specs" : {
+        "battery" : "300 kWh",
+        "autopilot" : true,
+        "modes" : [ "Sport", "Comfort", "Eco" ],
+        "range" : 1000
+      }
+    }
+  }, {
+    "type" : "car",
+    "details" : {
+      "id" : "CAR-002",
+      "brand" : "Mahindra",
+      "model" : "Thar",
+      "year" : 2022,
+      "specs" : {
+        "battery" : "100 kWh",
+        "autopilot" : false,
+        "modes" : [ "Wrap", "Zing" ],
+        "range" : 600
+      }
+    }
+  }, {
+    "type" : "bike",
+    "details" : {
+      "id" : "BIKE-001",
+      "brand" : "Yamaha",
+      "model" : "R15 V4",
+      "year" : 2023,
+      "specs" : {
+        "battery" : "50 kWh",
+        "autopilot" : true,
+        "modes" : [ "Fast", "Slow" ],
+        "range" : 100
+      }
+    }
+  } ],
+  "serviceHistory" : [ {
+    "date" : "2024-03-10",
+    "km" : 3500,
+    "center" : "MotoCare Garage - HSR Layout",
+    "tasks" : [ "Oil Change", "Brake Check", "Chain Lubrication" ]
+  }, {
+    "date" : "2024-08-21",
+    "km" : 7000,
+    "center" : "RiderPro Workshop - JP Nagar",
+    "tasks" : [ "General Service", "Coolant Replacement" ]
+  } ],
+  "stats" : {
+    "totalVehicles" : 3,
+    "cars" : 2,
+    "bikes" : 1
+  },
+  "lastUpdated" : "2025-01-10T14:23:00Z"
+}

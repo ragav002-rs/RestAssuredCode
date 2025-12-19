@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RestaurantOrder",
+  "type": "object",
+  "properties": {
+    "RestaurantName": {
+      "type": "string"
+    },
+    "BranchId": {
+      "type": "integer"
+    },
+    "FoodOrder": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "OrderTime": {
+      "type": "string"
+    },
+    "DeliveredTime": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "RestaurantName",
+    "BranchId",
+    "FoodOrder",
+    "OrderTime",
+    "DeliveredTime"
+  ]
+}

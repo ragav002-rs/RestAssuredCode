@@ -1,0 +1,11 @@
+{
+  "RestaurantName": "SS Hyderbad Biriyani",
+  "BranchId": 123,
+  "FoodOrder": [
+    "2 Chicken Biriyani",
+    "1 Chicken Grill",
+    "2 Fish Fry"
+  ],
+  "OrderTime": "12:45 pm"
+  
+}
