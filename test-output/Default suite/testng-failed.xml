@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Authorization.OAuth">
+      <class name="BDDStyleRequests.UserRequestsBDD">
         <methods>
-          <include name="OAuthToken"/>
-          <include name="requestOAuth"/>
+          <include name="GetAnEmployeeBDD"/>
         </methods>
-      </class> <!-- Authorization.OAuth -->
+      </class> <!-- BDDStyleRequests.UserRequestsBDD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
